@@ -4,4 +4,4 @@ const notes = require('./notes.js')
 const getnotes = notes()
 console.log(getnotes)
 
-console.log(chalk.bold.Blue('Success'))
+console.log(chalk.bold.red('Awesome'))
