@@ -1,11 +1,8 @@
-// const addition = require('./utils.js')
-// const sum = addition(4,-2)
-// console.log(sum)
-
-// const fs = require('fs')
-
-// fs.writeFileSync('notes.js','const getNotes = function (){return "Your Notes are ready"}; module.exports = getNotes')
-
+const validator = require('validator')
 const notes = require('./notes.js')
+
 const getnotes = notes()
 console.log(getnotes)
+
+console.log(validator.isEmail('andrew@example.com'))
+console.log(validator.isURL('https://read.io'))
